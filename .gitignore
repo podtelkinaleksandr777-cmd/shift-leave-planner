@@ -1,0 +1,33 @@
+# Зависимости
+node_modules/
+package-lock.json
+yarn.lock
+
+# Переменные окружения
+.env
+.env.local
+.env.*.local
+
+# Логи
+logs/
+*.log
+npm-debug.log*
+
+# Сборка
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# ОС
+.DS_Store
+Thumbs.db
+
+# Тесты
+coverage/
+
+# Docker
+*.pid
